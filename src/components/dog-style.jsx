@@ -78,7 +78,6 @@ useGSAP(()=>{
       endTrigger:"#section-3",
       start:"top top",
       end:"bottom bottom",
-      markers:true,
       scrub:true,
     }
   })
@@ -100,8 +99,6 @@ useGSAP(()=>{
     z:"+=0.1",
     y:"+=0.09"
   },"third")
-
-
 
 },[])
 
