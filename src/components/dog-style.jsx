@@ -35,7 +35,7 @@ const [
   sampleMatCap,
 ]=(useTexture([
   "/dog_normals.jpg",
-  "/matcap/mat-10.png"
+  "/matcap/mat-1.png"
 ]
 )).map((texture)=>{
   texture.flipY = false
@@ -83,20 +83,20 @@ useGSAP(()=>{
   })
   
   tl.to(modelRef.current.scene.position,{
-    z:"-=0.5",
+    z:"-=0.7",
     y:"+=0.1",
   })
   .to(modelRef.current.scene.rotation,{
+    x:`${Math.PI/12}`,  
     y:`+${Math.PI/4}`,  
-    x:`${Math.PI/15}`  
   },)
   .to(modelRef.current.scene.rotation,{
     y:`-${Math.PI/1.2}`,  
     x:`+${Math.PI/8}`  
   },"third")
   .to(modelRef.current.scene.position,{
-    x:"-0.3",
-    z:"+=0.1",
+    x:"-0.35",
+    z:"+=0.3",
     y:"+=0.09"
   },"third")
 
