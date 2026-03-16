@@ -76,7 +76,40 @@ function App() {
     <div className="line-1"></div>
     <div className="line-2"></div>
     </section>
-    <section id='section-2'>  </section>
+    <section id='section-2'>
+      <ul className='titles'>
+        <li className='title'>
+           <small>2020 - Ongoing</small>
+           <h1>Tomorrowland</h1>
+        </li>
+         <li className='title'>
+           <small>2020 - Ongoing</small>
+           <h1>Navy Pier</h1>
+        </li>
+         <li className='title'>
+           <small>2020 - Ongoing</small>
+           <h1>Navy Pier</h1>
+        </li>
+         <li className='title'>
+           <small>2020 - Ongoing</small>
+           <h1>This Was Louise's Phone</h1>
+        </li>
+         <li className='title'>
+           <small>2020 - Ongoing</small>
+           <h1>Navy Pier</h1>
+        </li>
+         <li className='title'>
+           <small>2020 - Ongoing</small>
+           <h1>Navy Pier</h1>
+        </li>
+         <li className='title'>
+           <small>2020 - Ongoing</small>
+           <h1>Navy Pier</h1>
+        </li>
+        
+         
+      </ul>
+    </section>
     <section id='section-3'>Section 3</section>
     
     </main>
