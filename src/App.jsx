@@ -1,6 +1,7 @@
 import { Canvas } from '@react-three/fiber'
 import './App.css'
-import DogStyle from './components/dog-style'
+import { DogStyle } from './components/dog-style'
+
 
 
 function App() {
@@ -9,19 +10,26 @@ function App() {
   return (
     <>
     <main >
-     <Canvas style={
-      {
-        height:"100vh",
-        width:"100vw",
-        position:'fixed',
-        top:0,
-        left:0,
-        zIndex:1,
-        background:"url(/background-xl-2.png)",
-        backgroundRepeat:"no-repeat",
-        backgroundSize:"cover"
-      }
-     }>           
+      <div className="images">
+        <img id='tomorrowland' src="/tomorrowland.png" alt="" />
+        <img id='navy-pier' src="/navy-pier.png" alt="" />
+        <img id='msi-chicago' src="/msi-chicago.png" alt="" />
+        <img id='louises-phone' src="/louises-phone.png" alt="" />
+        <img id='kikk-festical' src="/kikk-festical.png" alt="" />
+        <img id='kennedy' src="/kennedy.png" alt="" />
+        <img id='royal-opera' src="/royal-opera.png" alt="" />
+      </div>
+     <Canvas 
+     id='canvas-elem'
+      style={{
+            height: "100vh",
+            width: "100vw",
+            position: "fixed",
+            top: 0,
+            left: 0,
+            zIndex: 1,
+          }}
+     >
      <DogStyle/>
     </Canvas>
     <section id='section-1'>
@@ -78,40 +86,88 @@ function App() {
     </section>
     <section id='section-2'>
       <ul className='titles'>
-        <li className='title'>
+        <li img-title="tomorrowland" className='title'>
            <small>2020 - Ongoing</small>
            <h1>Tomorrowland</h1>
         </li>
-         <li className='title'>
+         <li img-title="navy-pier" className='title'>
            <small>2020 - Ongoing</small>
            <h1>Navy Pier</h1>
         </li>
-         <li className='title'>
+         <li img-title="msi-chicago" className='title'>
            <small>2020 - Ongoing</small>
-           <h1>Navy Pier</h1>
+           <h1>MSI Chicago</h1>
         </li>
-         <li className='title'>
+         <li img-title="louises-phone" className='title'>
            <small>2020 - Ongoing</small>
            <h1>This Was Louise's Phone</h1>
         </li>
-         <li className='title'>
+         <li img-title="kikk-festical" className='title'>
            <small>2020 - Ongoing</small>
-           <h1>Navy Pier</h1>
+           <h1>KIKK Festical 2018</h1>
         </li>
-         <li className='title'>
+         <li img-title="kennedy" className='title'>
            <small>2020 - Ongoing</small>
-           <h1>Navy Pier</h1>
+           <h1>The Kennedy Center</h1>
         </li>
-         <li className='title'>
+         <li img-title="royal-opera" className='title'>
            <small>2020 - Ongoing</small>
-           <h1>Navy Pier</h1>
+           <h1>Royal Opera Of Wallonia</h1>
         </li>
         
          
       </ul>
     </section>
-    <section id='section-3'>Section 3</section>
+
+
+    <section id='section-3'>
+
+        
+
+        <div className="underlying-text">
+
+          <p>THIS IS HOW WE DO IT</p>
+          <h3 >We're crafting <br />
+          emotional <br />
+          experiences aimed <br />
+          at improving <br />
+          results <br />
+          </h3>
+
+        </div>
+
+    </section>
+
+
+    <section id='section-4'>
     
+         <div className="top">
+
+         <div className="left"></div>
+         <div className='right'>
+      
+        <div className="splited-text">
+          
+          <div className="nested-left">Dogstudio is a design & <br /> technology firm working globally <br /> from our offices based in <br />Belgium and Chicago. <br />
+           Our strong focus on producing <br /> high quality & emotional <br /> brandings, digital products and <br /> experiences became a signature.</div>
+          <div className="nested-right">
+            We’re passionate about moving <br /> people and solving problems for <br /> the likes of Microsoft,<br /> The Museum of Science And Industry <br /> Of Chicago, The Kennedy Center <br /> of Washington, Dragone, Quanta <br /> Magazine, and many more.
+          </div>
+         </div>
+         
+          <div className="discover-button">
+
+          <button>Discover our values</button>
+          <div className="button-line"></div>
+          
+          </div>
+         </div>
+        </div>
+     
+     <div className="footer">
+      
+     </div>
+    </section>  
     </main>
     </>
   )
