@@ -142,13 +142,17 @@
     }
  }
 
- #section-2{
+ #section-2{  
+  margin-top: 20rem;  
+  position: relative;
+  
   
   .titles{
     display: flex;
     flex-direction: column;
     padding-left: 2.7rem;
-    margin-top: 20rem;  
+    width: 70%;
+    
     
     .title{
       display: flex;
@@ -157,10 +161,11 @@
       opacity: 0.3;
       cursor: pointer;
       transition: all 0.3s linear;
-
+      
       h1{
-          font-size: 4.5rem;
-          font-weight: 100;
+        font-size: 4.5rem;
+        font-weight: 100;
+         top: 0;
           line-height: 1;
           text-align: right;
         }
@@ -198,43 +203,75 @@
     opacity: 0;
     transition: all 0.3s linear;
   }
+
+  div{
+    
+    position: fixed;
+    font-size: 1.3rem;
+    bottom:12.5%;
+    line-height: 1.5 ;
+    right: 3%;
+    text-align: right;
+    opacity: 0;
+    transition: all 0.3 ease-in-out;
+    p{
+      p{
+        color: rgb(214, 134, 48);
+        font-size: x-small;
+        letter-spacing: 5px;
+      }
+    }
+  }
 }
 
- main:has(#section-2 .title[img-title="tomorrowland"]:hover) .images #tomorrowland{
-opacity: 1;
-background-color: rgb(21, 28, 50); 
-} 
+ main:has(#section-2 .title[img-title="tomorrowland"]:hover) .images .tomorrowland {
+  opacity: 1;
+  background-color: rgb(21, 28, 50); 
 
- main:has(#section-2 .title[img-title="navy-pier"]:hover) .images #navy-pier{
+  } 
+
+ main:has(#section-2 .title[img-title="navy-pier"]:hover) .images .navy-pier{
 opacity: 1;
 background-color: rgb(21, 28, 50); 
+ p{p{
+    color: rgb(21, 197, 150);}
+  }
+
  }
- main:has(#section-2 .title[img-title="msi-chicago"]:hover) .images #msi-chicago{
+ main:has(#section-2 .title[img-title="msi-chicago"]:hover) .images .msi-chicago{
 opacity: 1;
+  p{p{
+    color: rgb(21, 197, 150);}
+  }
  }
- main:has(#section-2 .title[img-title="louises-phone"]:hover) .images #louises-phone{
+ main:has(#section-2 .title[img-title="louises-phone"]:hover) .images .louises-phone{
 opacity: 1;
 background-color: rgb(21, 28, 50); 
+ p{p{
+    color: rgb(21, 197, 150);}
+  }
  }
   
-  main:has(#section-2 .title[img-title="kikk-festical"]:hover) .images #kikk-festical{
+  main:has(#section-2 .title[img-title="kikk-festical"]:hover) .images .kikk-festical{
 opacity: 1;
 background-color: rgb(9, 9, 126)
  }
  
- main:has(#section-2 .title[img-title="kennedy"]:hover) .images #kennedy{
+ main:has(#section-2 .title[img-title="kennedy"]:hover) .images .kennedy{
 opacity: 1;
 background-color: rgb(21, 28, 50); 
  }
  
- main:has(#section-2 .title[img-title="royal-opera"]:hover) .images #royal-opera{
+ main:has(#section-2 .title[img-title="royal-opera"]:hover) .images .royal-opera{
 opacity: 1;
-background-color: rgb(21, 28, 50); 
-background-color: #4D0101
+background-color: #4D0101;
+p{
+  background-color: inherit;
+}
  }
 
  #section-3{
-
+  margin-top:30rem;
     position: relative;
     z-index: 0;
     display: flex;
@@ -256,6 +293,7 @@ background-color: #4D0101
  }
 
 #section-4{
+
 
   .top{
     width: 100%;
@@ -299,6 +337,7 @@ background-color: #4D0101
         background-color: transparent;
         border:transparent;
         color: whitesmoke;
+        cursor: pointer;
       }
 
       .button-line{
@@ -319,18 +358,15 @@ background-color: #4D0101
     }
   }
 
-  .footer {
-  width: 100%;
-  height: 500px;
+  /* .footer { */
+  /* width: 100%;
+  height: 1000px;
   
-  background: linear-gradient(
-     175deg,              
-    transparent 50%,      
-    #ff4d4d 50%,         
-    #ff4d4d 50.5%,       
-    #0a0a0a 50.5%         
-  );
-}
+  background:url("/footer-image.png");
+  background-repeat: no-repeat;
+  
+  
+} */
 }
  
- 
+  

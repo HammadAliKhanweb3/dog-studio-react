@@ -11,14 +11,85 @@ function App() {
     <>
     <main >
       <div className="images">
-        <img id='tomorrowland' src="/tomorrowland.png" alt="" />
-        <img id='navy-pier' src="/navy-pier.png" alt="" />
-        <img id='msi-chicago' src="/msi-chicago.png" alt="" />
-        <img id='louises-phone' src="/louises-phone.png" alt="" />
-        <img id='kikk-festical' src="/kikk-festical.png" alt="" />
-        <img id='kennedy' src="/kennedy.png" alt="" />
-        <img id='royal-opera' src="/royal-opera.png" alt="" />
+        <img className='tomorrowland' src="/tomorrowland.png" alt="" />
+        <img className='navy-pier' src="/navy-pier.png" alt="" />
+        <img className='msi-chicago' src="/msi-chicago.png" alt="" />
+        <img className='louises-phone' src="/louises-phone.png" alt="" />
+        <img className='kikk-festical' src="/kikk-festical.png" alt="" />
+        <img className='kennedy' src="/kennedy.png" alt="" />
+        <img className='royal-opera' src="/royal-opera.png" alt="" />
+
+        <div className="tomorrowland">
+       
+        <p>
+            <p> WEB</p>
+            Building a new kind of <br />
+            immersive experience for <br />
+            the famous music festival
+         </p>
+        </div>
+        
+          <div className="navy-pier">
+       
+        <p>
+            <p>STRATEGY</p>
+            "Enhanced Waters" is an immerse<br />
+            and uplifting relection on Chicago's<br />
+            relationship with Michighan
+         </p>
+        </div>
+
+          <div className="msi-chicago">
+       
+        <p>
+            <p>STRATEGY</ p>
+            Rethinking Redesgninga and improving<br />
+            the website of the greate & famous<br />
+            Museum of Science and Industry of Chicago
+         </p>
+        </div>
+        
+          <div className="louises-phone">
+       
+        <p>
+            <p>DESIGN</p>
+            Creating a heart-moving immersive <br />
+            experience to educate people about <br />
+            the hell of cyber-bulling
+         </p>
+        </div>  
+        
+        <div className="kikk-festical">
+       
+        <p>
+            <p>DESIGN</ p>
+            Another KIKK Festival yearly revamp: The "Species<br />
+            and Beyond" edition
+         </p>
+        </div>
+        
+          <div className="kennedy">
+       
+        <p>
+            <p>DESIGN</p>
+            Building an immersive website <br />
+            to celeberate the memory of the <br />
+            unforgotable Jhon F. Kennedy
+         </p>
+        </div>
+         <div className="royal-opera">
+       
+        <p>
+            <p>DESIGN</p>
+            Imagining and desgning an oniric<br/>
+            universe to promote the upcoming <br />
+            season of renown Belgian opera house
+         </p>
+        </div>
+
       </div>
+        
+
      <Canvas 
      id='canvas-elem'
       style={{
@@ -113,10 +184,9 @@ function App() {
          <li img-title="royal-opera" className='title'>
            <small>2020 - Ongoing</small>
            <h1>Royal Opera Of Wallonia</h1>
-        </li>
-        
-         
+        </li>         
       </ul>
+     
     </section>
 
 
