@@ -234,9 +234,21 @@ function App() {
          </div>
         </div>
      
-     <div className="footer">
+     <footer className="footer">
       
-     </div>
+      <div className="top">
+          <div className='text'>Chicago.</div>
+          <div className='text'>Amesterdam.</div>
+          <div className='text'>Paris.</div>
+          <div className='image'>
+            <img src="/baseline-text-1.png" alt="footer image" />
+            <p>Fb / Ins/ Dri / Tw</p>
+          </div>
+      </div>
+      <div className="bottom">
+       <div className="line"></div>
+      </div>
+     </footer>
     </section>  
     </main>
     </>

@@ -358,15 +358,54 @@ p{
     }
   }
 
-  /* .footer { */
-  /* width: 100%;
-  height: 1000px;
   
-  background:url("/footer-image.png");
-  background-repeat: no-repeat;
+
+  .footer { 
+    margin-inline: 15rem;
+    width: 68%;
+    margin-top: 18rem;  
+    
+    .top{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      line-height: 1;
+      font-size: x-large;
+
+      
+      .text{
+        padding: 0%;
+        margin: 0%;
+      }
+       p{
+       font-size: x-small; 
+       }
+       .image{
+          text-align: right;
+          width:18rem;
+       }
+    }
+    
+   
+    img{
+      height: 5rem;
+      margin-bottom: 2rem;
+      
+    }
+ 
+    .bottom{
+      margin-top: 5rem;
+      height: 5rem;
+      .line{
+        width: 100%;
+        height: 2px;
+        background-color: #2f2f30;
+      }
+      
+    }
   
   
-} */
+} 
 }
  
   
