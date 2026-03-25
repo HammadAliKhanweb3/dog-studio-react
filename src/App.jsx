@@ -235,7 +235,7 @@ function App() {
         </div>
      
      <footer className="footer">
-      
+     <div className='text'>
       <div className="top">
           <div className='text'>Chicago.</div>
           <div className='text'>Amesterdam.</div>
@@ -248,6 +248,7 @@ function App() {
       <div className="bottom">
        <div className="line"></div>
       </div>
+     </div>
      </footer>
     </section>  
     </main>
